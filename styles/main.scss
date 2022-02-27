@@ -49,3 +49,26 @@ header {
 		margin: auto;
 	}
 }
+main {
+	position: relative;
+	background: $quaternary;
+
+	display: flex;
+	justify-content: space-between;
+	margin: $dimension1 * 5 auto;
+	width: $percentage1 * 0.8;
+	min-height: $viewport1 / 2;
+	border: $dimension2 * 1.5 solid $primary;
+	border-radius: $dimension1 * 0.6;
+}
+#carouselExampleSlidesOnly {
+	width: $percentage1 * 0.8;
+	margin: $dimension1 * 0.6 auto;
+	height: $dimension1 * 5;
+	background: $quaternary;
+	color: $secondary;
+	display: flex;
+	align-items: center;
+	border: $dimension2 * 1.5 solid $primary;
+	border-radius: $dimension1 * 0.6;
+}

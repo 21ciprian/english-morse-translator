@@ -49,4 +49,28 @@ header h1 {
   margin: auto;
 }
 
+main {
+  position: relative;
+  background: linear-gradient(217deg, #241c1c, #131525 70.71%);
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem auto;
+  width: 80%;
+  min-height: 50vh;
+  border: 0.15rem solid #ffa500;
+  border-radius: 0.6rem;
+}
+
+#carouselExampleSlidesOnly {
+  width: 80%;
+  margin: 0.6rem auto;
+  height: 5rem;
+  background: linear-gradient(217deg, #241c1c, #131525 70.71%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 0.15rem solid #ffa500;
+  border-radius: 0.6rem;
+}
+
 /*# sourceMappingURL=main.css.map */
