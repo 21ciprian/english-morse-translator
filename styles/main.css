@@ -78,4 +78,28 @@ main {
   font-weight: 500;
 }
 
+.english-morse {
+  width: 50%;
+  min-height: 100%;
+  margin: 0 3rem;
+  position: relative;
+  z-index: 1;
+}
+.english-morse h2 {
+  color: #fff;
+  padding-top: 1rem;
+}
+.english-morse input {
+  background-color: #fff;
+  margin: 1.1rem;
+  width: 90%;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  padding: 0 0.5rem;
+}
+.english-morse p {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
 /*# sourceMappingURL=main.css.map */

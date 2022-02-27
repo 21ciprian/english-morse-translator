@@ -76,3 +76,27 @@ main {
 	font-size: larger;
 	font-weight: 500;
 }
+.english-morse {
+	width: $percentage1 / 2;
+	min-height: $percentage1;
+	margin: 0 $dimension1 * 3;
+	position: relative;
+	z-index: 1;
+
+	h2 {
+		color: $secondary;
+		padding-top: $dimension1;
+	}
+	input {
+		background-color: $secondary;
+		margin: $dimension1 * 1.1;
+		width: $percentage1 * 0.9;
+		font-size: $dimension1 * 1.5;
+		border-radius: $dimension1 * 0.6;
+		padding: 0 $dimension1 / 2;
+	}
+	p {
+		color: $secondary;
+		font-size: $dimension1 * 1.3;
+	}
+}
