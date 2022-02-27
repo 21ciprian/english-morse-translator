@@ -1,0 +1,23 @@
+{
+  "name": "english-morse-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21ciprian/english-morse-translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/21ciprian/english-morse-translator/issues"
+  },
+  "homepage": "https://github.com/21ciprian/english-morse-translator#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
