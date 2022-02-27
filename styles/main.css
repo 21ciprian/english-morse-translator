@@ -7,12 +7,20 @@
 body {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   text-align: center;
   background-image: url("../images/wp.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+body h3 {
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 1.5rem auto;
+  letter-spacing: 0.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
