@@ -23,4 +23,30 @@ body h3 {
   letter-spacing: 0.4rem;
 }
 
+header {
+  background-color: #ffa500;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  width: 6rem;
+  height: 100%;
+}
+header a img {
+  height: 100%;
+  width: 100%;
+  padding: 0.3rem;
+  position: relative;
+}
+header h1 {
+  position: relative;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  align-self: center;
+  margin: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

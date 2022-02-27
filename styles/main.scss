@@ -23,3 +23,29 @@ body {
 		letter-spacing: $dimension2 * 4;
 	}
 }
+header {
+	background-color: $primary;
+	height: $dimension1 * 5;
+	width: $percentage1;
+	display: flex;
+	justify-content: space-between;
+
+	a {
+		width: $dimension1 * 6;
+		height: $percentage1;
+		img {
+			height: $percentage1;
+			width: $percentage1;
+			padding: $dimension2 * 3;
+			position: relative;
+		}
+	}
+	h1 {
+		position: relative;
+		color: $secondary;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+		align-self: center;
+		margin: auto;
+	}
+}
