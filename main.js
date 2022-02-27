@@ -26,12 +26,15 @@ facts.map((mfact, i) => {
 	}
 })
 function englishTextConverter() {
-	console.log('englishTextConverter')
-	let convertedText = englishInput.value
-	convertedText = convertedText.toUpperCase().split('')
+	let textArray = englishInput.value.toUpperCase().split('')
+	console.log('textArray :', textArray)
+
+	const convertedArray = textArray.map(letter => englishToMorse[letter])
+	// textArray = textArray.join('')
+	console.log('convertedArray :', convertedArray)
+	console.log('newArr :', convertedArray.join(''))
+	morseOutput.innerHTML = convertedArray.join('')
 }
-function morseTextConverter() {
-	console.log('morseTextConverter')
-}
+function morseTextConverter() {}
 englishInput.addEventListener('input', englishTextConverter)
 morseInput.addEventListener('input', morseTextConverter)
