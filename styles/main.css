@@ -73,4 +73,9 @@ main {
   border-radius: 0.6rem;
 }
 
+.carousel-item {
+  font-size: larger;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=main.css.map */
